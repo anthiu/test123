@@ -685,6 +685,7 @@ transform: rotate(-35.99deg) ;
   width:1768px;
   height: 258px;
   position: absolute;
+  display: flex;
   top: 2785px;
   left: 76px;
   gap: 199px;
