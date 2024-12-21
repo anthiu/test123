@@ -693,35 +693,38 @@ transform: rotate(-35.99deg) ;
 .testimon-left-btn{
   width: 99px;
   height: 258px;
-  float: left;
   cursor: pointer;
   border: none;
   background-color: #FAF9F8;
+  display: flex;
+
   
 }
 .testimon-right-btn{
   width: 99px;
   height: 258px;
-  float: right;
+  display: flex;
   cursor: pointer;
 }
 .testimon-left-btn img{
   height: 99px;
   width: 99px;
-  margin-top: 79.5px;
+  
 }
 .testimon-right-btn img{
   height: 99px;
   width: 99px;
-  margin-top: 79.5px;
+  
   cursor: pointer;
 }
 .testimon-text{
   width: 1172px;
   height: 258px;
-  float: left;
+  display: flex;
+  align-items: center;
   gap: 21px;
-  margin-left: 199px;
+  flex-direction: column;
+  justify-content: center;
 }
 .habitant{
   width: 1172px;
