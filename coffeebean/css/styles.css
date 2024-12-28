@@ -2005,9 +2005,11 @@ input:focus{
   .shop-best-coffee-item{
     height: 100px;
     width: 80vw;
+    top: 2049px;
   }
   .img-shop-best-coffee-item-1{
     width: 80vw;
+    height: auto;
   }
   .habitant{
       width: 90vw;
@@ -2197,6 +2199,7 @@ input:focus{
   .text-top{
     width: 100vw;
     font-size: 34px;
+    top: 1974px;
   }
   .billboard--image_nordwood{
     display: none;
