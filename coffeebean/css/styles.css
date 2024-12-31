@@ -1909,7 +1909,7 @@ input:focus{
 /* mobile width < 740px */
 @media only screen  and (max-width: 46.1875em){
   body {
-    height: fit-content;
+    height: 4600px;
     width: fit-content;
     position: relative;
     background-color: #FAF9F8;
@@ -1942,6 +1942,8 @@ input:focus{
   }
   .footer{
     width: 100vw;
+    left: -17px;
+    top: 4565px;
   }
   .all-set{
     display: flex;
@@ -1951,6 +1953,7 @@ input:focus{
   }
   .btn-nav{
     display: flex;
+    left: 20px;
   }
   #Search{
     width: 108px
@@ -1970,15 +1973,19 @@ input:focus{
     display: none;
   }
   .search-nav{
-      display: flex;
-      width: 150px;
+    display: flex;
+    width: 150px;
+    left: 234px;
+    height: 49px;
   }
   .nav-text{
     display: none;
   }
   .navbar--logo{
-    width: auto;
-    left: auto;
+    width: 60px;
+    left: 155px;
+    height: 60px;
+    top: 75px;
   }
   .billboard--image{
     display: flex;
@@ -1988,27 +1995,107 @@ input:focus{
   .billboard{
     width: 100vw;
     background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    top: 30px;
   }
   .text-morbi{
     width: 100vw;
-    font-size: 20px;
+    font-size: 17px;
   }
   .billboard-text{
     width: 100vw;
     left: -10%;
   }
   .short-intro-text{
-        width: 60vw;
-        height: 100px;
-        font-size: 26px;
+    width: 96vw;
+    height: 52px;
+    font-size: 19px;
+    left: 7px;
+    top: 899px;
   }
+  
   .shop-best-coffee-item{
     height: 100px;
     width: 80vw;
-    top: 2049px;
+    top: 1256px;
+    left: 5px;
+    gap: 11px;
+  }
+  
+  .shop-best-coffee-item-1{
+    width: 33%;
+    height: auto;
+  }
+  .shop-best-coffee-item-2{
+    width: 33%;
+    height: auto;
+  }
+  .shop-best-coffee-item-3{
+    width: 33%;
+    height: auto;
+  }
+  .info-item-1{
+    width: 100%;
+    height: auto;
+  }
+  .info-item-2{
+    width: 100%;
+    height: auto;
+  }
+  .info-item-3{
+    width: 100%;
+    height: auto;
+  }
+  .name-item-1{
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    
+  }
+  .name-item-2{
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+   
+  }
+  .name-item-3{
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    
+  }
+  .price-item-1{
+    width: 100%;
+    height: auto;
+  }
+  .price-item-1{
+    width: 100%;
+    height: auto;
+  }
+  .price-item-1{
+    width: 100%;
+    height: auto;
+  }
+  .price-item-1{
+    width: 100%;
+    height: auto;
   }
   .img-shop-best-coffee-item-1{
-    width: 80vw;
+    width: 30vw;
+    height: auto;
+  }
+  .img-shop-best-coffee-item-2{
+    width: 30vw;
+    height: auto;
+  }
+  .img-shop-best-coffee-item-3{
+    width: 30vw;
     height: auto;
   }
   .habitant{
@@ -2016,9 +2103,18 @@ input:focus{
       height: 100px;
       font-size: 16px;
   }
-  .testimonials {
-    left: 0;
+  .title-sub-to{
+    width: 90vw;
+    font-size: small;
   }
+  .testimonials {
+    left: -12px;
+    top: 1710px;
+  }
+  .btn-navbar a {
+    font-size: 11px;
+  }
+
   .service-1-text{
     display: none;
   }
@@ -2034,21 +2130,21 @@ input:focus{
     left: 0 ;
     padding: 2%;
     width: 100vw;
-    gap: 10px;
-    top: 3150px;
+    gap: 30px;
+    top: 2100px;
   }
   .service{
-    top: 61%;
+    top: 3455px;
   }
   #write-email{
     width: 170px;
-    font-size: 15px;
+    font-size: 13px;
   }
   .subscrise-social{
-    top: 50.95%
+    top: 3000px
   }
   .new-arrivals{
-    width: 50%;
+    width: 40%;
     height: 100%;
     gap: 15px;
   }
@@ -2057,7 +2153,7 @@ input:focus{
     font-size: 20px
   }
   .best-selling{
-    width: 50%;
+    width: 43%;
     height: 100%;
     gap: 15px;
   }
@@ -2071,6 +2167,7 @@ input:focus{
   }
   .info-bs-item{
     width: 100%;
+    margin: 0;
   }
   .des-bs{
     display: none;
@@ -2109,8 +2206,11 @@ input:focus{
     width: 75%;
   }
   .best-selling-item img{
-    width: 20%;
-    height: auto;
+    width: 25%;
+    height: 50px;
+  }
+  .price-bs{
+    font-size: 12px;
   }
   .navbar{
     display: flex;
@@ -2123,7 +2223,7 @@ input:focus{
     
   }
   .new-name-item{
-    font-size:12px;
+    font-size:11px;
   }
   .border-item-1{
     display: none;
@@ -2141,7 +2241,7 @@ input:focus{
     display: none;
   }
   .new-price-item{
-    font-size: 20px;
+    font-size: 12px;
   }
   .decrise-item{
     width: 100%;
@@ -2157,7 +2257,7 @@ input:focus{
   }
   .img-new-item{
     width: 20%;
-    height: auto;
+    height: 50px;
   }
   .info-new-item{
     width: 80%;
@@ -2199,7 +2299,8 @@ input:focus{
   .text-top{
     width: 100vw;
     font-size: 34px;
-    top: 1974px;
+    top: 1192px;
+    left: 6px;
   }
   .billboard--image_nordwood{
     display: none;
@@ -2213,7 +2314,8 @@ input:focus{
   }
   .read-our-blog{
     width: 100vw;
-    top: 56%  ;
+    top: 3760px ;
+    left: 4px;
   }
   .text-read-blog{
     width: 63vw;
@@ -2226,7 +2328,7 @@ input:focus{
         border: none;
   }
   .blogs{
-    width: 100vw;
+    width: 94vw;
   }
   .img-blog-1{
     width: auto;
@@ -2252,10 +2354,10 @@ input:focus{
   
   .instagram{
     width: 100vw;
-    top: 66%;
+    top: 4200px;
   }
   .sub-us-input{
-
+    width: 66vw;
   }
   .subscrise div{
     font-size: 16px;
@@ -2298,15 +2400,42 @@ input:focus{
 .blog-3{
   height: 300px;
 }
+.price-item-1{
+  width: 100%;
+  font-size: 20px;
+}
+.price-item-2{
+  width: 100%;
+  font-size: 20px;
+}
+.price-item-3{
+  width: 100%;
+  font-size: 20px;
+}
+.service-1{
+  font-size: 13px;
+}
+.text-blog-1-2{
+  width: 100%;
+  font-size: 19px;
+}
+.text-blog-2-1{
+  width: 100%;
+  font-size: 19px;
+}
+.text-blog-3-1{
+  font-size: 19px;
+}
 }
 /* tablet width >= 740px and <1024px */
 @media only screen  and (min-width: 46.1875em) and(max-width: 63.9375em){
   body {
-    height: fit-content;
+    height: 4600px;
     width: fit-content;
     position: relative;
     background-color: #FAF9F8;
     min-width: fit-content;
+
   }
   .blogs{
 
