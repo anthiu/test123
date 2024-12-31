@@ -1975,7 +1975,7 @@ input:focus{
   .search-nav{
     display: flex;
     width: 150px;
-    left: 234px;
+    left: 265px;
     height: 49px;
   }
   .nav-text{
@@ -1983,7 +1983,7 @@ input:focus{
   }
   .navbar--logo{
     width: 60px;
-    left: 155px;
+    left: 175px;
     height: 60px;
     top: 75px;
   }
@@ -2217,6 +2217,7 @@ input:focus{
     align-items: center;
     justify-content: center;
     width: 100vw;
+    left: 0;
   }
   .best-selling-item{
     width: 100%;
