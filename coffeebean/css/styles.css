@@ -1975,7 +1975,7 @@ input:focus{
   .search-nav{
     display: flex;
     width: 150px;
-    left: 265px;
+    left: 262px;
     height: 49px;
   }
   .nav-text{
@@ -1999,7 +1999,7 @@ input:focus{
     align-items: center;
     justify-content: center;
     left: 40px;
-    top: 30px;
+    top: 47px;
   }
   .text-morbi{
     width: 100vw;
@@ -2014,27 +2014,28 @@ input:focus{
     height: 52px;
     font-size: 19px;
     left: 7px;
-    top: 899px;
+    top: 838px;
+    line-height: 36px;
   }
   
   .shop-best-coffee-item{
     height: 100px;
     width: 80vw;
-    top: 1256px;
+    top: 1073px;
     left: 5px;
     gap: 11px;
   }
   
   .shop-best-coffee-item-1{
-    width: 33%;
+    width: 30vw;
     height: auto;
   }
   .shop-best-coffee-item-2{
-    width: 33%;
+    width: 30vw;
     height: auto;
   }
   .shop-best-coffee-item-3{
-    width: 33%;
+    width: 30vw;
     height: auto;
   }
   .info-item-1{
@@ -2052,21 +2053,21 @@ input:focus{
   .name-item-1{
     width: 100%;
     height: auto;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     
   }
   .name-item-2{
     width: 100%;
     height: auto;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
    
   }
   .name-item-3{
     width: 100%;
     height: auto;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     
   }
@@ -2109,7 +2110,13 @@ input:focus{
   }
   .testimonials {
     left: -12px;
-    top: 1710px;
+    top: 1375px;
+  }
+  .btn-viewall-new-arrivals{
+    margin-top: 0;
+  }
+  .btn-view-all-bs{
+    margin-top: 0 ;
   }
   .btn-navbar a {
     font-size: 11px;
@@ -2130,43 +2137,46 @@ input:focus{
     left: 0 ;
     padding: 2%;
     width: 100vw;
-    gap: 30px;
-    top: 2100px;
+    gap: 40px;
+    top: 1665px;
+    flex-direction: column;
   }
   .service{
-    top: 3455px;
+    top: 3474px;
   }
   #write-email{
     width: 170px;
     font-size: 13px;
   }
   .subscrise-social{
-    top: 3000px
+    top: 3155px
   }
   .new-arrivals{
-    width: 40%;
+    width: 100%;
     height: 100%;
-    gap: 15px;
+    gap: 30px;
   }
   .text-new-arrivals{
     width: 100%;
-    font-size: 20px
+    font-size: 30px;
   }
   .best-selling{
-    width: 43%;
+    width: 100%;
     height: 100%;
     gap: 15px;
   }
   .text-best-selling{
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
   }
   .name-price-bs{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
   }
   .info-bs-item{
-    width: 100%;
+    width: 95%;
     margin: 0;
   }
   .des-bs{
@@ -2176,21 +2186,21 @@ input:focus{
     display: none;
   }
   .name-bs{
-    font-size: 12px;
+    font-size: 22px;
     display: flex;
   }
   .name-bs-2{
-    font-size: 12px;
+    font-size: 22px;
     display: flex;
   }
   .name-bs-4{
-    font-size: 12px;
+    font-size: 22px;
     display: flex;
     width: 190px;
   }
   
   .name-bs-5{
-    font-size: 12px;
+    font-size: 22px;
     display: flex;
   }
   .border-bs-2{
@@ -2206,25 +2216,25 @@ input:focus{
     width: 75%;
   }
   .best-selling-item img{
-    width: 25%;
-    height: 50px;
+    width: 90px;
+    height: auto;
   }
   .price-bs{
-    font-size: 12px;
+    font-size: 22px;
   }
   .navbar{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    left: 0;
+    left: auto;
   }
   .best-selling-item{
     width: 100%;
     
   }
   .new-name-item{
-    font-size:11px;
+    font-size:22px;
   }
   .border-item-1{
     display: none;
@@ -2242,7 +2252,7 @@ input:focus{
     display: none;
   }
   .new-price-item{
-    font-size: 12px;
+    font-size: 22px;
   }
   .decrise-item{
     width: 100%;
@@ -2254,21 +2264,21 @@ input:focus{
     width: 100%;
   }
   .new-item{
-    width: 100%;
+    width: 115%;
   }
   .img-new-item{
-    width: 20%;
-    height: 50px;
+    width: 90px;
+    height: auto;
   }
   .info-new-item{
     width: 80%;
     height: auto;
-    display: flex
-;
+    display: flex;
     justify-content: space-between;
+    flex-direction: column;
   }
   .sarah{
-    margin-top: 180px;
+    margin-top: 50px;
   }
   .categories {
     left: 0;
@@ -2281,6 +2291,7 @@ input:focus{
   .habitant div{
     height: 200px;
     width: 100%;
+    line-height: 36px;
   }
   .testimon-text{
     width: 100vw;
@@ -2300,7 +2311,7 @@ input:focus{
   .text-top{
     width: 100vw;
     font-size: 34px;
-    top: 1192px;
+    top: 999px;
     left: 6px;
   }
   .billboard--image_nordwood{
@@ -2315,7 +2326,7 @@ input:focus{
   }
   .read-our-blog{
     width: 100vw;
-    top: 3760px ;
+    top: 3750px ;
     left: 4px;
   }
   .text-read-blog{
@@ -2355,7 +2366,7 @@ input:focus{
   
   .instagram{
     width: 100vw;
-    top: 4200px;
+    top: 4153px;
   }
   .sub-us-input{
     width: 66vw;
@@ -2394,12 +2405,14 @@ input:focus{
 }
 .blog-1{
   height: 300px;
+  gap: 45px ;
 }
 .blog-2{
   height: 300px;
 }
 .blog-3{
   height: 300px;
+  gap: 40px ;
 }
 .price-item-1{
   width: 100%;
@@ -2415,6 +2428,7 @@ input:focus{
 }
 .service-1{
   font-size: 13px;
+  line-height: 20px;
 }
 .text-blog-1-2{
   width: 100%;
