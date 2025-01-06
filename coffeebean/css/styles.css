@@ -1999,7 +1999,8 @@ input:focus{
     align-items: center;
     justify-content: center;
     left: 40px;
-    top: 47px;
+    top: 479px;
+    height: fit-content;
   }
   .text-morbi{
     width: 100vw;
