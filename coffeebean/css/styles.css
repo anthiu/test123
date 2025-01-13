@@ -2023,21 +2023,24 @@ input:focus{
     height: 100px;
     width: 80vw;
     top: 1073px;
-    left: 5px;
+    left: 10px;
     gap: 11px;
   }
   
   .shop-best-coffee-item-1{
     width: 30vw;
     height: auto;
+    gap: 10px;
   }
   .shop-best-coffee-item-2{
     width: 30vw;
     height: auto;
+    gap: 10px;
   }
   .shop-best-coffee-item-3{
     width: 30vw;
     height: auto;
+    gap: 10px;
   }
   .info-item-1{
         width: 100%;
@@ -2063,6 +2066,7 @@ input:focus{
     font-size: 12px;
     display: flex;
     align-items: center;
+    justify-content: center;
     
   }
   .name-item-2{
@@ -2071,6 +2075,7 @@ input:focus{
         font-size: 12px;
         display: flex;
         align-items: center;
+        justify-content: center;
   }
   .name-item-3{
     width: 100%;
@@ -2078,24 +2083,10 @@ input:focus{
     font-size: 12px;
     display: flex;
     align-items: center;
+    justify-content: center;
     
   }
-  .price-item-1{
-    width: 100%;
-    height: auto;
-  }
-  .price-item-1{
-    width: 100%;
-    height: auto;
-  }
-  .price-item-1{
-    width: 100%;
-    height: auto;
-  }
-  .price-item-1{
-    width: 100%;
-    height: auto;
-  }
+  
   .img-shop-best-coffee-item-1{
     width: 30vw;
     height: auto;
@@ -2118,8 +2109,8 @@ input:focus{
     font-size: small;
   }
   .testimonials {
-    left: -12px;
-    top: 1375px;
+    left: 0px;
+    top: 1355px;
   }
   .btn-viewall-new-arrivals{
     margin-top: 0;
@@ -2156,6 +2147,7 @@ input:focus{
   #write-email{
     width: 205px;
     font-size: 13px;
+    height: 25px;
   }
   .subscrise-social{
     top: 3155px
@@ -2182,7 +2174,7 @@ input:focus{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    gap: 25px;
+    gap: 6px;
   }
   .info-bs-item{
     width: 95%;
@@ -2244,6 +2236,7 @@ input:focus{
   }
   .new-name-item{
     font-size:22px;
+    height: 25px;
   }
   .border-item-1{
     display: none;
@@ -2262,6 +2255,7 @@ input:focus{
   }
   .new-price-item{
     font-size: 22px;
+    height: 25px;
   }
   .decrise-item{
     width: 100%;
@@ -2281,10 +2275,11 @@ input:focus{
   }
   .info-new-item{
     width: 80%;
-    height: auto;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    gap: 10px;
   }
   .sarah{
     margin-top: 50px;
@@ -2353,15 +2348,15 @@ input:focus{
   }
   .img-blog-1{
     width: auto;
-    height: auto;
+    height: 95px;
   }
   .img-blog-2{
     width: auto;
-    height: auto;
+    height: 95px;
   }
   .img-blog-3{
     width: auto;
-    height: auto;
+    height: 95px;
   }
   .text-blog-1-1{
     display: none;
@@ -2414,14 +2409,15 @@ input:focus{
 }
 .blog-1{
   height: 300px;
-  gap: 45px ;
+  gap: 20px ;
 }
 .blog-2{
   height: 300px;
+  gap: 20px;
 }
 .blog-3{
   height: 300px;
-  gap: 40px ;
+  gap: 20px ;
 }
 .price-item-1{
   width: 100%;
@@ -2429,6 +2425,7 @@ input:focus{
   height: 25px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .price-item-2{
   width: 100%;
@@ -2436,6 +2433,7 @@ input:focus{
   height: 25px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .price-item-3{
   width: 100%;
@@ -2443,6 +2441,7 @@ input:focus{
   height: 25px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .service-1{
   font-size: 13px;
@@ -2450,14 +2449,20 @@ input:focus{
 }
 .text-blog-1-2{
   width: 100%;
-  font-size: 19px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
 }
 .text-blog-2-1{
   width: 100%;
-  font-size: 19px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
 }
 .text-blog-3-1{
-  font-size: 19px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
 }
 }
 /* tablet width >= 740px and <1024px */
