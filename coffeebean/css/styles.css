@@ -2107,6 +2107,7 @@ input:focus{
   .title-sub-to{
     width: 90vw;
     font-size: small;
+    text-align: center;
   }
   .testimonials {
     left: 0px;
@@ -2150,7 +2151,8 @@ input:focus{
     height: 25px;
   }
   .subscrise-social{
-    top: 3155px
+    top: 3155px;
+    left: 120px;
   }
   .new-arrivals{
     width: 100%;
@@ -2331,7 +2333,8 @@ input:focus{
   .read-our-blog{
     width: 100vw;
     top: 3750px ;
-    left: 4px;
+    left: 0px;
+    align-items: center;
   }
   .text-read-blog{
     width: 63vw;
@@ -2406,6 +2409,7 @@ input:focus{
 }
 .size-img-insta {
   height: auto;
+  width: 127.6px;
 }
 .blog-1{
   height: 300px;
