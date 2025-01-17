@@ -2067,6 +2067,7 @@ input:focus{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
     
   }
   .name-item-2{
@@ -2076,6 +2077,7 @@ input:focus{
         display: flex;
         align-items: center;
         justify-content: center;
+    text-decoration: none;
   }
   .name-item-3{
     width: 100%;
@@ -2084,6 +2086,7 @@ input:focus{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
     
   }
   
@@ -2430,6 +2433,7 @@ input:focus{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .price-item-2{
   width: 100%;
@@ -2438,6 +2442,7 @@ input:focus{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .price-item-3{
   width: 100%;
@@ -2446,6 +2451,7 @@ input:focus{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 .service-1{
   font-size: 13px;
