@@ -1748,7 +1748,7 @@ cursor: pointer;
 .all-img-insta{
      display: flex;
          gap: 1%;
-         width: 375.84px;
+         width: 91%;
          height: 100%;
       margin: 0 auto;
 }
@@ -2408,7 +2408,7 @@ input:focus{
 .all-img-insta {
   display: block;
   gap: 1%;
-  width: 91%;
+  width: 375.84px;
   height: 100%;
 }
 .size-img-insta {
