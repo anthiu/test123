@@ -1951,10 +1951,12 @@ input:focus{
     flex-wrap: wrap;
     width: 100vw;
     margin: 0 -1em;
+    height: 4800px;
   }
   .btn-nav{
     display: flex;
     left: 20px;
+    top: 35px;
   }
   #Search{
     width: 98px
@@ -1978,6 +1980,7 @@ input:focus{
     width: 150px;
     left: 262px;
     height: 49px;
+    top: 40px;
   }
   .nav-text{
     display: none;
@@ -1986,7 +1989,7 @@ input:focus{
     width: auto;
     left: 175px;
     height: 60px;
-    top: 75px;
+    top: 36px;
   }
   .billboard--image{
     display: flex;
