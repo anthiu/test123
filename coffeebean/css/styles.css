@@ -1957,7 +1957,7 @@ input:focus{
     left: 20px;
   }
   #Search{
-    width: 108px
+    width: 98px
   }
   .parent{
     display: flex;
@@ -1983,7 +1983,7 @@ input:focus{
     display: none;
   }
   .navbar--logo{
-    width: 60px;
+    width: auto;
     left: 175px;
     height: 60px;
     top: 75px;
