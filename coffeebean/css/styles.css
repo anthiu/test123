@@ -1748,8 +1748,9 @@ cursor: pointer;
 .all-img-insta{
      display: flex;
          gap: 1%;
-         width: 91%;
+         width: 375.84px;
          height: 100%;
+      margin: 0 auto;
 }
 .footer{
   width: 100%;
