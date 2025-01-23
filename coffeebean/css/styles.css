@@ -1945,6 +1945,7 @@ input:focus{
     width: 100vw;
     left: -17px;
     top: 4565px;
+    height: 60px;
   }
   .all-set{
     display: flex;
@@ -2345,8 +2346,10 @@ input:focus{
   }
   .text-read-blog{
     width: 63vw;
-    height: 100px;
+    height: 100%;
     font-size: 21px;
+    align-items: center;
+    display: flex;
   }
   .read-post{
         width: 40vw;
