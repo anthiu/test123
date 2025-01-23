@@ -1927,6 +1927,7 @@ input:focus{
   }
   .content{
     width: 100vw;
+    height: 4600px
   }
   .nav-border{
     display: flex;
@@ -1952,7 +1953,7 @@ input:focus{
     flex-wrap: wrap;
     width: 100vw;
     margin: 0 -1em;
-    height: 4800px;
+    height: 4600px;
   }
   .btn-nav{
     display: flex;
@@ -2004,7 +2005,7 @@ input:focus{
     align-items: center;
     justify-content: center;
     left: 40px;
-    top: 479px;
+    top: 410px;
     height: fit-content;
   }
   .text-morbi{
@@ -2433,6 +2434,9 @@ input:focus{
   height: 300px;
   gap: 20px ;
 }
+  .sub-us{
+    gap: 15px;
+  }
 .price-item-1{
   width: 100%;
   font-size: 20px;
